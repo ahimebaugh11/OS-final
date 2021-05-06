@@ -3,3 +3,8 @@ Peters Changes
 For fixing issue #2405 for Mailpile, I had to locate down the file where they changed to web-guis design.
 Luckily the file was default.css. And using the @media rule to distinguish when the window size reaches a certain size to add extra padding to the nav element, "topbar-nav" 
 which would prevent it from disappearing offscreen. 
+
+
+Using Windows, I had the issue of everytime I closed the server and then turn it on, the server would not let me
+back into the program even though I was typing in the password correctly. So, that made is unlikely for me to be
+able to fine tune any of the css or page layout. 
