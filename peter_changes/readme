@@ -1,5 +1,5 @@
 Peters Changes
 
-'''
-Peter Radev
-'''
+For fixing issue #2405 for Mailpile, I had to locate down the file where they changed to web-guis design.
+Luckily the file was default.css. And using the @media rule to distinguish when the window size reaches a certain size to add extra padding to the nav element, "topbar-nav" 
+which would prevent it from disappearing offscreen. 
