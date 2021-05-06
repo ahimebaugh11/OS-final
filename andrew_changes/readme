@@ -1,1 +1,14 @@
 Andrews Work
+All of my changes were made under the setup_magic.py file as requested in the issue report/feature request.
+
+I did my best at implementing the tag reset functionality and all of my changes were in the ResetTags class towards the bottom of the file.
+
+delete_tags
+This function is to delete any tags that previously existed
+
+reset_tags
+this function is to reset all tags to the factory defaults that exist when mailpile is originally setup by the user
+
+I was never actually able to test this because of the fact that i couldnt actually get any of my emails loaded in (oAuth has been introduced since this project was created
+it seems to break their account import) and primarily because it would involve front end work which I have no experience with, but to the best of my knowledge this fits 
+the prior structure and methods used in the rest of the code.
